@@ -29,6 +29,12 @@
   gap: 1rem;
 }
 
+.flex {
+  display: flex;
+}
+
+
+
 @media (width >= 80em) {
   .container {
     --max-width: 80rem;

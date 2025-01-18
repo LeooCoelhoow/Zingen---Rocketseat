@@ -1,0 +1,34 @@
+.btn {
+  border: 0;
+  background-color: transparent;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content; /* Se encaixar ao conteúdo */
+
+  border-radius: .5rem;
+
+  font: var(--fw-bold) var(--fs-base)/1.5rem var(--ff-sans);
+
+  cursor: pointer;
+
+  background: var(--text-color-primary);
+  color: var(--bg-color);
+}
+
+
+.btn-sm {
+  padding: .5rem 1rem;
+  font-size: var(--fs-sm);
+}
+
+.btn-md {
+  padding: .75rem 1.5rem;
+  font-size: var(--fs-base);
+}
+
+.btn-lg {
+  padding: 1rem 2rem;
+  font-size: 1.125rem;
+}
