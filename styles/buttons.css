@@ -42,3 +42,26 @@
   padding: 1rem 2rem;
   font-size: 1.125rem;
 }
+
+.btn[aria-label] {
+
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    border-radius: inherit;
+    inset: 1.5px;
+    background-color: var(--bg-color);
+  }
+
+  &::after {
+    content: attr(aria-label); /* attr para atributo */
+    background: var(--btn-bg-color);
+    -webkit-background-clip: text; /* Para fazer um recorte conforme o texto */
+    background-clip: text;
+    color: transparent;
+    position: relative;
+    z-index: 1;
+  }
+}
