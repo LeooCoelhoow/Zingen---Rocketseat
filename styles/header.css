@@ -1,0 +1,5 @@
+header {
+  & a:first-child { /* Para modificar o primeiro filho que é a logo */
+    margin-right: auto; /* Para preencher todo o lado direito da logo */
+  }
+}
