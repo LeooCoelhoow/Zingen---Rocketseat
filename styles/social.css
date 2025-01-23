@@ -12,7 +12,7 @@ a.social {
     --bg-img: url(../assets/icons/tiktok.svg);
   
     &:hover {
-      --bg-img: url(../assets/icons/tiktok-hover.svg);
+      --bg-img: url(../assets/icons/tiktok-hover.svg); /* Dentro do SVG hover modifical e linkar o fill com o defs após o path */
     }
   }
   
