@@ -91,6 +91,11 @@ ul[role="list"] { /* Pra tirar a bolinha da lista aplicando o role="list" */
   list-style: none;
 }
 
+img {
+  max-width: 100%;
+  display: inline-block;
+}
+
 @media (width >= 80em) { /* 80em = 1280px, tela grande */
   :root {
     --fs-lg: 2rem;
